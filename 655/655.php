@@ -12,7 +12,7 @@ if (!class_exists('lessc')) {
     require_once($dir_block . '/libs/lessc.inc.php');
 }
 $less = new lessc;
-$less->compileFile('less/type-6.less', 'css/type-6.css');
+$less->compileFile('less/655.less', 'css/655.css');
 ?>
 <!DOCTYPE html>
 
@@ -22,7 +22,7 @@ $less->compileFile('less/type-6.less', 'css/type-6.css');
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css"/>
-        <link href="<?php echo $url_path ?>/css/type-6.css" rel="stylesheet"/>
+        <link href="<?php echo $url_path ?>/css/655.css" rel="stylesheet"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet"/>
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
