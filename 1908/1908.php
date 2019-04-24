@@ -23,14 +23,12 @@ $less->compileFile('less/1908.less', 'css/1908.css');
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet"  />
-        <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet"  />
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet"/>
         <link href="<?php echo $url_path ?>/css/1908.css" rel="stylesheet"/>
-        <link href="<?php echo $url_path ?>/css/jquery-ui.css" rel="stylesheet"/>
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/jquery-ui.js"></script>
         <script src="<?php echo $url_path ?>/js/1908.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
         
     </head>
     <body>

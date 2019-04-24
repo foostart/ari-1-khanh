@@ -2,6 +2,8 @@
   width: 100%;
   height: 600px;
   background-image: url(../images/5.jpg);
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
 }
 .mod-custom-1 .swiper-button-prev {
   background-color: #f6f7f3;

@@ -3,9 +3,10 @@
     font-family: "Open Sans",sans-serif;
     font-size: 14px;
     line-height: inherit;
-    margin: 0;
-    padding: 0;
     background:#fff;
+    input{
+        width: 54%;
+    }
     .sidebar-shop{
         box-sizing:border-box;
         outline:none;
@@ -30,6 +31,10 @@
                         color: #666;
                         padding-left:20px;
                         background:url("../images/un-check.jpg") no-repeat left center;
+                        &:hover{
+                            color:#fe9c00;
+                            text-decoration: none;
+                        }
                     }
                 }
             }
@@ -42,18 +47,14 @@
                 text-transform: uppercase;
                 padding: 0;
                 border-bottom: 0;
-            }
-            .widget-title::after {
-                width: 13px;
-                content: "";
-                height: 13px;
-                position: absolute;
-                right: 0;
-                top:0;
-                background:url("../images/sub.png") no-repeat center center;
-            }
-            .widget-title:active::after{
-                background:url("../images/grid/add.png") no-repeat center center;
+                i{
+                    float: right;
+                    color: gray;
+                    font-family: "Times New Roman", Times, serif;
+                    font-size: 14px;
+                    line-height: 1px;
+                    text-transform: lowercase;
+                }
             }
         }
         .box-filter {
@@ -71,16 +72,13 @@
                 margin: 15px 0;
             }
             #amount {
-                display: inline-block;
-                margin-right: 4px;
-                vertical-align: top;
                 span {
                     border: 1px solid #e8e8e8;
                     display: inline-block;
                     height: 30px;
                     line-height: 30px;
                     text-align: center;
-                    width: 59px;
+                    width: 20px;
                 }
             }
             .btn-filter {
@@ -91,11 +89,12 @@
                 width: 72px;
             }
             #slider-range {
-                background: #e8e8e8 none repeat scroll 0 0;
+                background: #fe9c00 none repeat scroll 0 0;
                 border: medium none;
                 height: 1px;
                 margin: 30px 0;
-                .ui-slider-handle.ui-state-default.ui-corner-all {
+                cursor: pointer;
+                .ui-slider-handle {
                     background: #ff9900 none repeat scroll 0 0;
                     border: medium none;
                     border-radius: 0;
@@ -103,9 +102,7 @@
                     margin: 0 -8px;
                     top: -8px;
                     width: 16px;
-                }
-                .ui-widget-header{
-                    background: #ff9900 none repeat scroll 0 0;
+                    cursor: pointer;
                 }
             }
         }
@@ -138,9 +135,6 @@
             .color-blue{
                 background-color: #107a8e !important;
             }
-            .color-yellow{
-                background-color: #f3d213 !important;
-            }
             .color-brown{
                 background-color: #502006 !important;
             }
@@ -162,6 +156,9 @@
             .color-red-blood{
                 background-color: #bd0316 !important;
             }
+            .color-white{
+                background-color: #ffff !important;
+            }
         }
     }
     .ui-slider {
@@ -170,16 +167,6 @@
             position: absolute;
             z-index: 2;
             cursor: default;
-            -ms-touch-action: none;
-            touch-action: none;
-        }
-    }
-    input,input:focus,input:hover{
-        outline:none;
-    }
-    @media (min-width: 992px){
-        .col-md-3 {
-            width: 26%;
         }
     }
 }

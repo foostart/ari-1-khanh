@@ -39,19 +39,13 @@
 .type-1914 .sidebar-post .category1 {
   margin: 15px 0;
 }
-.type-1914 .sidebar-post .widget_categories li :before {
-  display: table;
-  content: " ";
-}
-.type-1914 .sidebar-post .widget_categories li :after {
-  display: table;
-  content: " ";
-  clear: both;
-}
 .type-1914 .sidebar-post .widget_categories li a {
   float: left;
   color: #333;
   text-decoration: none;
+}
+.type-1914 .sidebar-post .widget_categories li a:hover {
+  color: #fe9c00;
 }
 .type-1914 .sidebar-post .title-post-tab {
   border-bottom: 1px solid #e5e5e5;

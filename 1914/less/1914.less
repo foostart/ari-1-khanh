@@ -39,20 +39,16 @@
         .category1{
             margin: 15px 0;
         }
-        .widget_categories li{
-            :before{
-                display: table;
-                content: " ";
-            }
-            :after{
-                display: table;
-                content: " ";
-                clear: both;
-            }
-            a{
-                float: left;
-                color: #333;
-                text-decoration: none;
+        .widget_categories{
+            li{
+                a{
+                    float: left;
+                    color: #333;
+                    text-decoration: none;
+                    &:hover{
+                        color: #fe9c00;
+                    }
+                }
             }
         }
         .title-post-tab {
