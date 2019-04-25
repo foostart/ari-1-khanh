@@ -7,7 +7,7 @@
   line-height: inherit;
   margin: 0;
   padding: 0;
-  background: #fff;
+  background: #FFFFFF;
 }
 .type-1918 .contact-info-page {
   background: #f4f4f4 none repeat scroll 0 0;
@@ -112,4 +112,9 @@
 }
 .type-1918 p {
   line-height: 24px;
+}
+@media (max-width: 768px) {
+  .type-1918 .item-contact-info:after {
+    display: none;
+  }
 }

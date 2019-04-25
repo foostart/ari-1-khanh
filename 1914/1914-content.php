@@ -7,10 +7,10 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-<div class="type-1914">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-4 col-xs-12">
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-12">
+            <div class="type-1914">
                 <div class="sidebar-post">
                     <div id="categories-2" class="widget widget_categories">
                         <h3 class="widget-title">Categories</h3>
@@ -73,7 +73,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div id="recent" class="tab-pane fade" role="tabpanel">
                                 <ul class="list-post-tab">
-                                    
+
                                     <li>
                                         <div class="zoom-image-thumb">
                                             <a href=""><img src="<?php echo $url_path ?>/images/2-100x67.jpg" alt=""></a>

@@ -3,7 +3,7 @@
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: inherit;
-  background: #fff;
+  background: #FFFFFF;
 }
 .type-1908 input {
   width: 54%;
@@ -83,9 +83,9 @@
   width: 20px;
 }
 .type-1908 .sidebar-shop .range-filter .btn-filter {
-  background: #FE9C00 none repeat scroll 0 0;
+  background: #fe9c00 none repeat scroll 0 0;
   border: medium none;
-  color: #fff;
+  color: #FFFFFF;
   height: 30px;
   width: 72px;
 }
@@ -125,40 +125,40 @@
   background: url("../images/grid/check.jpg") no-repeat right bottom;
 }
 .type-1908 .sidebar-shop .list-color-filter .color-black {
-  background-color: #000 !important;
+  background-color: #000;
 }
 .type-1908 .sidebar-shop .list-color-filter .color-red {
-  background-color: #cd0c20 !important;
+  background-color: #cd0c20;
 }
 .type-1908 .sidebar-shop .list-color-filter .color-pink {
-  background-color: #e66054 !important;
+  background-color: #e66054;
 }
 .type-1908 .sidebar-shop .list-color-filter .color-blue {
-  background-color: #107a8e !important;
+  background-color: #107a8e;
 }
 .type-1908 .sidebar-shop .list-color-filter .color-brown {
-  background-color: #502006 !important;
+  background-color: #502006;
 }
 .type-1908 .sidebar-shop .list-color-filter .color-green {
-  background-color: #a7bc93 !important;
+  background-color: #a7bc93;
 }
 .type-1908 .sidebar-shop .list-color-filter .color-violet {
-  background-color: #d0b7cc !important;
+  background-color: #d0b7cc;
 }
 .type-1908 .sidebar-shop .list-color-filter .color-blue-sky {
-  background-color: #b9cad2 !important;
+  background-color: #b9cad2;
 }
 .type-1908 .sidebar-shop .list-color-filter .color-orange {
-  background-color: #FE9C00 !important;
+  background-color: #FE9C00;
 }
 .type-1908 .sidebar-shop .list-color-filter .color-gray {
-  background-color: #b4b3ae !important;
+  background-color: #b4b3ae;
 }
 .type-1908 .sidebar-shop .list-color-filter .color-red-blood {
-  background-color: #bd0316 !important;
+  background-color: #bd0316;
 }
 .type-1908 .sidebar-shop .list-color-filter .color-white {
-  background-color: #fff f !important;
+  background-color: #fff f;
 }
 .type-1908 .ui-slider {
   position: relative;

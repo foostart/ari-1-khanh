@@ -7,10 +7,11 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-<div class="type-1908">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-4 col-xs-12">
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-12">
+            <div class="type-1908">
                 <div id="sv_product_fillter-2" class="widget">
                     <div class="sidebar-shop">
                         <div class="widget widget-filter">

@@ -7,9 +7,10 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-<div class="type-1919">
-    <div class="container">
-        <div class="row">
+
+<div class="container">
+    <div class="row">
+        <div class="type-1919">
             <div class="protect-video">
                 <div class="col-sm-6">
                     <div class="about-full-protec">

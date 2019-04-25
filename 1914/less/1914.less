@@ -1,18 +1,23 @@
+@color1: #333;
+@color2: #FFFFFF;
+@color3: #fe9c00;
+@font-size1: 14px;
+@font-size2: 18px;
 .type-1914{
     box-sizing:border-box;
     outline:none;
-    color: #333;
+    color: @color1;
     font-family: "Open Sans",sans-serif;
-    font-size: 14px;
+    font-size: @font-size1;
     line-height: inherit;
     margin: 0;
     padding: 0;
-    background:#fff;
+    background:@color2;
     a{
-        color: #333;
+        color: @color1;
     }
     a:hover{
-        color:#FE9C00;
+        color:@color3;
     }
     .sidebar-post {
         .widget {
@@ -20,7 +25,7 @@
             margin-bottom: 30px;
             .widget-title {
                 border-bottom: 1px solid #e5e5e5;
-                font-size: 18px;
+                font-size: @font-size2;
                 font-weight: 700;
                 margin: 0;
                 padding: 10px 20px;
@@ -43,10 +48,10 @@
             li{
                 a{
                     float: left;
-                    color: #333;
+                    color: @color1;
                     text-decoration: none;
                     &:hover{
-                        color: #fe9c00;
+                        color: @color3;
                     }
                 }
             }
@@ -66,16 +71,16 @@
             }
 
             li.active a {
-                color: #fe9c00;
+                color: @color3;
             }
             a {
-                font-size: 18px;
+                font-size: @font-size2;
                 font-weight: 700;
                 text-transform: uppercase;
                 text-decoration: none;
             }
             a:hover{
-                color:#FE9C00;
+                color:@color3;
             }
             ::after {
                 content: "";
@@ -111,7 +116,7 @@
             h3{
                 max-height: 40px;
                 overflow: hidden;
-                font-size: 14px;
+                font-size: @font-size1;
                 line-height: 20px;
                 margin: -5px 0 5px;
             }

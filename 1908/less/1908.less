@@ -1,9 +1,14 @@
+@color1: #333;
+@color2: #666;
+@color3: #fe9c00;
+@color4: #FFFFFF;
+@font-size14: 14px;
 .type-1908{
-    color: #333;
+    color: @color1;
     font-family: "Open Sans",sans-serif;
-    font-size: 14px;
+    font-size: @font-size14;
     line-height: inherit;
-    background:#fff;
+    background:@color4;
     input{
         width: 54%;
     }
@@ -28,11 +33,11 @@
                 li {
                     margin-bottom: 10px;
                     a{
-                        color: #666;
+                        color: @color2;
                         padding-left:20px;
                         background:url("../images/uncheck.jpg") no-repeat left center;
                         &:hover{
-                            color:#fe9c00;
+                            color:@color3;
                             text-decoration: none;
                         }
                     }
@@ -51,7 +56,7 @@
                     float: right;
                     color: gray;
                     font-family: "Times New Roman", Times, serif;
-                    font-size: 14px;
+                    font-size: @font-size14;
                     line-height: 1px;
                     text-transform: lowercase;
                 }
@@ -66,7 +71,7 @@
             margin: 0;
         }
         .range-filter {
-            color: #666;
+            color: @color2;
             form{
                 padding: 0;
                 margin: 15px 0;
@@ -82,14 +87,14 @@
                 }
             }
             .btn-filter {
-                background: #FE9C00 none repeat scroll 0 0;
+                background: @color3 none repeat scroll 0 0;
                 border: medium none;
-                color: #fff;
+                color: @color4;
                 height: 30px;
                 width: 72px;
             }
             #slider-range {
-                background: #fe9c00 none repeat scroll 0 0;
+                background: @color3 none repeat scroll 0 0;
                 border: medium none;
                 height: 1px;
                 margin: 30px 0;
@@ -115,7 +120,7 @@
                 margin-bottom: 4px;
                 margin-right: 7px;
                 width: 22px;
-                color:#333;
+                color:@color1;
             }
             a:hover{
                 border:1px solid #ED321E;
@@ -124,40 +129,40 @@
                 background:url("../images/grid/check.jpg") no-repeat right bottom;
             }
             .color-black{
-                background-color: #000 !important;
+                background-color: #000;
             }
             .color-red{
-                background-color: #cd0c20 !important;
+                background-color: #cd0c20;
             }
             .color-pink{
-                background-color: #e66054 !important;
+                background-color: #e66054;
             }
             .color-blue{
-                background-color: #107a8e !important;
+                background-color: #107a8e;
             }
             .color-brown{
-                background-color: #502006 !important;
+                background-color: #502006;
             }
             .color-green{
-                background-color: #a7bc93 !important;
+                background-color: #a7bc93;
             }
             .color-violet{
-                background-color: #d0b7cc !important;
+                background-color: #d0b7cc;
             }
             .color-blue-sky{
-                background-color: #b9cad2 !important;
+                background-color: #b9cad2;
             }
             .color-orange{
-                background-color: #FE9C00 !important;
+                background-color: #FE9C00;
             }
             .color-gray{
-                background-color: #b4b3ae !important;
+                background-color: #b4b3ae;
             }
             .color-red-blood{
-                background-color: #bd0316 !important;
+                background-color: #bd0316;
             }
             .color-white{
-                background-color: #ffff !important;
+                background-color: #ffff;
             }
         }
     }

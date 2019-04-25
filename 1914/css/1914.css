@@ -7,13 +7,13 @@
   line-height: inherit;
   margin: 0;
   padding: 0;
-  background: #fff;
+  background: #FFFFFF;
 }
 .type-1914 a {
   color: #333;
 }
 .type-1914 a:hover {
-  color: #FE9C00;
+  color: #fe9c00;
 }
 .type-1914 .sidebar-post .widget {
   border: 1px solid #e5e5e5;
@@ -71,7 +71,7 @@
   text-decoration: none;
 }
 .type-1914 .sidebar-post .title-post-tab a:hover {
-  color: #FE9C00;
+  color: #fe9c00;
 }
 .type-1914 .sidebar-post .title-post-tab ::after {
   content: "";

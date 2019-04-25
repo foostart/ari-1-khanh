@@ -1,13 +1,19 @@
+@font-size1: 14px;
+@font-size2: 18px;
+@color1:#333;
+@color2:#FFFFFF;
+@color3:#fe9c00;
+@color4:#3a49b8;
 .type-1919{
     box-sizing:border-box;
     outline:none;
-    color: #333;
+    color: @color1;
     font-family: "Open Sans",sans-serif;
-    font-size: 14px;
+    font-size: @font-size1;
     line-height: inherit;
     margin: 0;
     padding: 0;
-    background:#fff;
+    background:@color2;
     .protect-video {
         margin-top: 95px;
     }
@@ -24,7 +30,7 @@
     }
     .about-full-protec {
         h2 {
-            font-size: 18px;
+            font-size: @font-size2;
             font-weight: 700;
             margin: 0 0 40px;
             text-transform: uppercase;
@@ -60,10 +66,10 @@
         }
         span{
             display: inline-block;
-            background: #fe9c00 none repeat scroll 0 0;
+            background: @color3 none repeat scroll 0 0;
             border-radius: 50%;
-            color: #fff;
-            font-size: 18px;
+            color: @color2;
+            font-size: @font-size2;
             height: 60px;
             line-height: 60px;
             text-align: center;
@@ -76,12 +82,12 @@
             vertical-align: middle;
         }
         .new-user-guide {
-            color: #3a49b8;
+            color: @color4;
             display: block;
             margin-top: 30px;
             text-decoration: none;
             &:hover{
-                color: #fe9c00;
+                color: @color3;
             }
         }
     }

@@ -1,19 +1,28 @@
+@color1:#333;
+@color2:#555;
+@color3:#FFFFFF;
+@color4: #999;
+@color5: #f9bc02;
+@color6: #f4f4f4;
+@font-size1: 14px;
+@font-size2: 60px;
+@font-size3: 18px;
 .type-1918{
     box-sizing:border-box;
     outline:none;
-    color: #333;
+    color: @color1;
     font-family: "Open Sans",sans-serif;
-    font-size: 14px;
+    font-size: @font-size1;
     line-height: inherit;
     margin: 0;
     padding: 0;
-    background:#fff;
+    background:@color3;
     .contact-info-page{
-        background: #f4f4f4 none repeat scroll 0 0;
+        background: @color6 none repeat scroll 0 0;
         padding: 70px 0;
         text-align: center;
         .desc {
-            color: #555;
+            color: @color2;
             margin: 0 auto;
             max-width: 890px;
             padding: 0 15px;
@@ -24,7 +33,7 @@
         position: relative;
         text-align: center;
         &:after {
-            background: #999 none repeat scroll 0 0;
+            background: @color4 none repeat scroll 0 0;
             content: "";
             height: 2px;
             left: 100%;
@@ -38,8 +47,8 @@
             overflow: hidden;
             position: relative;
             .before{
-                color: #999;
-                font-size: 60px;
+                color: @color4;
+                font-size: @font-size2;
                 left: 100%;
                 position: absolute;
                 top: -1px;
@@ -49,36 +58,36 @@
                 opacity: 0;
             }
             a {
-                color: #333;
+                color: @color1;
                 text-decoration: none;
                 &:hover {
-                    color: #f9bc02;
+                    color: @color5;
                 }
             }
             &:hover{
                 .before{
                     transform: translateX(0) rotate(0);
                     opacity: 1;
-                    color: #f9bc02;
+                    color: @color5;
                 }
                 &:before{
                     transform:translateX(0) rotate(0);
                     -moz-transform:translateX(0) rotate(0);
                     -webkit-transform:translateX(0) rotate(0);
                     opacity:1;
-                    color: #f9bc02;
+                    color: @color5;
                 }
                 i{
                     -webkit-transform:translateX(200%);
                     transform:translateX(200%);
                     opacity:0;
-                    color: #f9bc02;
+                    color: @color5;
                 }
             }
             &:before {
-                color: #999;
+                color: @color4;
                 font-family: "fontawesome";
-                font-size: 60px;
+                font-size: @font-size2;
                 left: 100%;
                 position: absolute;
                 top: -1px;
@@ -89,31 +98,38 @@
             }
         }
         a {
-            color: #333;
+            color: @color1;
             text-decoration: none;
             &:hover {
-                color: #f9bc02;
+                color: @color5;
             }
             i {
-                color: #999;
-                font-size: 60px;
+                color: @color4;
+                font-size: @font-size2;
             }
         }
         h2 {
-            font-size: 18px;
+            font-size: @font-size3;
             font-weight: 700;
             margin: 25px 0 0;
         }
     }
     .last-item{
-            &:after {
-                display: none;
-            }
+        &:after {
+            display: none;
         }
+    }
     .vc_custom {
         margin-bottom: 0px;
     }
     p {
         line-height: 24px;
+    }
+    @media (max-width: 768px){
+        .item-contact-info{
+            &:after {
+                display: none;
+            }
+        }
     }
 }
