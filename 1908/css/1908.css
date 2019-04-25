@@ -168,3 +168,6 @@
   z-index: 2;
   cursor: default;
 }
+.type-1908 ul li a {
+  text-decoration: none;
+}

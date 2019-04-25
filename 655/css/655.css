@@ -17,14 +17,6 @@
   font-family: 'Roboto Regular', arial;
   font-weight: normal;
 }
-.type-6 .box_mid .mid-title:after {
-  position: absolute;
-  width: 300px;
-  height: 1px;
-  left: 40%;
-  content: "";
-  background-color: #01b360;
-}
 .type-6 .menu-category {
   width: auto;
   border-bottom: 1px solid #e5e5e5;
@@ -70,4 +62,13 @@
   color: white;
   background-color: #00af5a;
   font-weight: bold;
+}
+@media (max-width: 768px) {
+  .type-6 .box_mid .mid-title .titleL h1 {
+    font-size: 29px;
+  }
+  .type-6 .menu-category ul li {
+    display: inline-block;
+    font-size: 14px;
+  }
 }

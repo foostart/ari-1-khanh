@@ -12,7 +12,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="row">
         <div class="type-1919">
             <div class="protect-video">
-                <div class="col-sm-6">
+                <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="about-full-protec">
                         <h2>To get full protection</h2>
                         <ul>
