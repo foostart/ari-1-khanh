@@ -6,24 +6,20 @@
   cursor: pointer;
 }
 .mod-custom-1 .swiper-button-prev {
-  background-color: #f6f7f3;
-  border: 25px solid #ddd;
-  color: #96bd42;
+  color: #fff;
   background-image: none;
   padding-bottom: 18px;
   padding-right: 8px;
-  top: 335px;
-  left: 288px;
+  top: 215px;
+  left: 15px;
 }
 .mod-custom-1 .swiper-button-next {
-  background-color: #f6f7f3;
-  border: 25px solid #ddd;
-  color: #96bd42;
+  color: #fff;
   background-image: none;
   padding-bottom: 18px;
   padding-right: 8px;
-  top: 335px;
-  right: 288px;
+  top: 215px;
+  right: 15px;
 }
 .mod-custom-1 .swiper-wrapper {
   margin-top: 70px;
@@ -44,16 +40,19 @@
 .mod-custom-1 .swiper-slide h2 {
   font-weight: bold;
 }
+.mod-custom-1 .textv {
+  margin-left: -15px;
+}
 @media (max-width: 768px) {
   .mod-custom-1 .swiper-container {
     width: 500px;
     height: 400px;
   }
   .mod-custom-1 .swiper-button-prev {
-    left: 190px;
+    left: 20px;
   }
   .mod-custom-1 .swiper-button-next {
-    right: 170px;
+    right: 20px;
   }
   .mod-custom-1 .swiper-slide p {
     margin: 0px 80px;
