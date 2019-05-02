@@ -58,20 +58,20 @@
   margin: 15px 0 0;
   padding: 0 20px;
 }
-.type-1909 .swiper-container .list-shop-cat {
+.type-1909 .list-shop-cat {
   background: #fafafa none repeat scroll 0 0;
   border: 1px solid #e8e8e8;
   padding: 24px;
 }
-.type-1909 .swiper-container .list-shop-cat ul {
+.type-1909 .list-shop-cat ul {
   list-style: none;
   padding: 0;
 }
-.type-1909 .swiper-container .list-shop-cat ul li {
+.type-1909 .list-shop-cat ul li {
   display: inline-block;
   margin: 5px;
 }
-.type-1909 .swiper-container .list-shop-cat ul li a {
+.type-1909 .list-shop-cat ul li a {
   text-decoration: none;
   border: 1px solid #e8e8e8;
   border-radius: 36px;
@@ -85,7 +85,7 @@
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
-.type-1909 .swiper-container .list-shop-cat ul li a span {
+.type-1909 .list-shop-cat ul li a span {
   border-radius: 50%;
   width: 26px;
   height: 26px;
