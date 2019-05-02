@@ -20,8 +20,18 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div id="collapse1" class="panel-collapse collapse in">
                                     <div class="panel-body">
                                         <ul>
-                                            <li><a href="#"><input type="checkbox"> Electronics (20)</a></li>
-                                            <li><a href="#"><input type="checkbox">  Fashion (10)</a></li>
+                                            <li>
+                                                <label class="input-check">
+                                                    <input type="checkbox">
+                                                    <a>Electronics (20)</a>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="input-check">
+                                                    <input type="checkbox">
+                                                    <a>Fashion (10)</a>
+                                                </label>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -46,8 +56,18 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div id="collapse3" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <ul>
-                                            <li><a data-attribute="pa_brand" data-term="apple"href="#">Apple <span>(2)</span></a></li>
-                                            <li><a data-attribute="pa_brand" data-term="canifa" href="#">Canifa <span>(2)</span></a></li>
+                                            <li>
+                                                <label class="input-check">
+                                                    <input type="checkbox">
+                                                    <a>Apple <span>(2)</span></a> 
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="input-check">
+                                                    <input type="checkbox">
+                                                    <a>Canifa <span>(2)</span></a> 
+                                                </label>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -77,11 +97,30 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div id="collapse5" class="panel-collapse collapse in">
                                     <div class="panel-body">
                                         <ul>
-                                            <li><a href="#"><input type="checkbox"> L <span>(3)</span></a></li>
-                                            <li><a href="#"><input type="checkbox"> M <span>(3)</span></a></li>
-                                            <li><a href="#"><input type="checkbox"> S <span>(3)</span></a></li>
-                                            <li><a href="#"><input type="checkbox"> XL <span>(3)</span></a></li>
-                                            <li><a href="#"><input type="checkbox"> XXL <span>(3)</span></a></li>
+                                            <li>
+                                                <label class="input-check">
+                                                    <input type="checkbox">
+                                                    <a>L <span>(3)</span></a> 
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="input-check">
+                                                    <input type="checkbox">
+                                                    <a>M <span>(3)</span></a> 
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="input-check">
+                                                    <input type="checkbox">
+                                                    <a>XL <span>(3)</span></a> 
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="input-check">
+                                                    <input type="checkbox">
+                                                    <a>XXL <span>(3)</span></a> 
+                                                </label>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>

@@ -32,11 +32,18 @@
 .type-1908 .sidebar-shop .widget ul li {
   margin-bottom: 10px;
 }
-.type-1908 .sidebar-shop .widget ul li a {
-  color: #666;
-  padding-left: 20px;
+.type-1908 .sidebar-shop .widget ul li .input-check input {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  top: 5px;
+  cursor: pointer;
 }
-.type-1908 .sidebar-shop .widget ul li a:hover {
+.type-1908 .sidebar-shop .widget ul li .input-check a {
+  color: #666;
+  cursor: pointer;
+}
+.type-1908 .sidebar-shop .widget ul li .input-check a:hover {
   color: #fe9c00;
   text-decoration: none;
 }
