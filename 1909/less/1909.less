@@ -1,7 +1,7 @@
 
 .type-1909 {  
 
-    .swiper-container {
+    .swiper1909 {
         width: 100%;
         height: 100%;
         margin-left: auto;
@@ -53,8 +53,8 @@
             background-color: #007aff;
         }
 
-        .swiper-button-next, .swiper-button-prev{
-            top: 30%;
+        .next1909, .prev1909{
+            top: 55%;
         }
 
         .button{
@@ -67,7 +67,54 @@
             margin: 15px 0 0;
             padding: 0 20px;
         }
+
+
+        .swiper-slide {
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .next1909, .prev1909{
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            background: #333 none repeat scroll 0 0;
+            text-align: center;
+        }
+
+        .arrow1909{
+            display: none;
+        }
+
+        .next1909{
+            right: 0;
+        }
+
+        .prev1909{
+            left: 0;
+        }
     }
+    
+    .swiper1909:hover{
+        .arrow1909{
+            display: block
+        }
+    }
+    
     .list-shop-cat{
         background: #fafafa none repeat scroll 0 0;
         border: 1px solid #e8e8e8;
@@ -94,6 +141,12 @@
                     background: #fff;
                     -webkit-transition: all 0.3s ease-out 0s;
                     transition: all 0.3s ease-out 0s;
+                    &:hover {
+                        color: #ed321e;
+                        span{
+                            background-color: #ed321e;
+                        }
+                    }
 
                     span{
                         border-radius: 50%;
@@ -109,28 +162,13 @@
                         -webkit-transition: all 0.3s ease-out 0s;
                         transition: all 0.3s ease-out 0s;
                         color: #fff;
+                        &:hover {
+                            background-color: #ed321e;
+                        }
                     }
                 }
             }
         }
-    }
-    .swiper-slide {
-        font-size: 18px;
-        background: #fff;
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-        cursor: pointer;
     }
 
     @media only screen and (min-width: 320px) and (max-width: 479px){  
@@ -149,12 +187,6 @@
                 font-size: 12px!important;
             }
         }
-        .swiper-button-next{
-            top: 13%!important;
-        }
-        .swiper-button-prev {
-            top: 13%!important;
-        }
 
         .list-shop-cat{
             ul{
@@ -166,7 +198,8 @@
 
     }
 
-    @media only screen and (min-width: 480px) and (max-width: 767px){  
+    @media only screen and (min-width: 480px) and (max-width: 767px){ 
+        margin-top: 50px;
         .promotion{
             h3{
                 font-size: 22px;

@@ -10,7 +10,16 @@
     line-height: inherit;
     background:@color4;
     .vlput{
-        width: 54%;
+        width: 41%;
+        padding: 3px;
+    }
+    .accordion1::after {
+        content: "\2212";
+        float: right;
+    }
+    .active1::after {
+        content: '\002B';
+        float: right;
     }
     .sidebar-shop{
         box-sizing:border-box;
@@ -35,9 +44,9 @@
                     .input-check{
                         input{
                             position: relative;
-                            height: 20px;
-                            width: 20px;
-                            top: 5px;
+                            height: 14px;
+                            width: 15px;
+                            top: 3px;
                             cursor: pointer;
                         }
                         a{
@@ -61,19 +70,14 @@
                 text-transform: uppercase;
                 padding: 0;
                 border-bottom: 0;
-                i{
-                    float: right;
-                    color: gray;
-                    font-family: "Times New Roman", Times, serif;
-                    font-size: @font-size14;
-                    line-height: 1px;
-                    text-transform: lowercase;
-                }
             }
         }
         .box-filter {
             border-bottom: 1px solid #e8e8e8;
             margin-bottom: 20px;
+            .panel-body{
+                display: none;
+            }
         }
         .box-filter:last-child {
             border: medium none;
@@ -81,6 +85,13 @@
         }
         .range-filter {
             color: @color2;
+            .input-group-addon{
+                margin-top: -1px;
+                width: 0;
+                padding: 8px;
+                display: inline-table;
+                margin-right: -4px;
+            }
             form{
                 padding: 0;
                 margin: 15px 0;
@@ -102,18 +113,18 @@
                 height: 30px;
                 width: 72px;
             }
-            #slider-range {
+            #slider-range1 {
                 background: @color3 none repeat scroll 0 0;
                 border: medium none;
                 height: 1px;
-                margin: 30px 0;
+                margin: 30px 13px;
                 cursor: pointer;
                 .ui-slider-handle {
                     background: #ff9900 none repeat scroll 0 0;
                     border: medium none;
                     border-radius: 0;
                     height: 16px;
-                    margin: 0 -8px;
+                    margin: 0 -14px;
                     top: -8px;
                     width: 16px;
                     cursor: pointer;

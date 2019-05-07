@@ -1,10 +1,10 @@
-.type-1909 .swiper-container {
+.type-1909 .swiper1909 {
   width: 100%;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-.type-1909 .swiper-container .promotion {
+.type-1909 .swiper1909 .promotion {
   left: 0;
   margin-top: -50px;
   padding-left: 50px;
@@ -12,43 +12,43 @@
   text-transform: uppercase;
   top: 50%;
 }
-.type-1909 .swiper-container .promotion h3 {
+.type-1909 .swiper1909 .promotion h3 {
   color: #666;
   font-size: 18px;
   font-weight: 700;
   margin: 0;
 }
-.type-1909 .swiper-container .promotion h2,
-.type-1909 .swiper-container .promotion span {
+.type-1909 .swiper1909 .promotion h2,
+.type-1909 .swiper1909 .promotion span {
   color: #ED321E;
   font-weight: 700;
   margin: 0;
 }
-.type-1909 .swiper-container .button {
+.type-1909 .swiper1909 .button {
   float: left;
   border: 0;
   margin-top: 0px;
   padding: 5px 20px;
   background-color: #6b6;
 }
-.type-1909 .swiper-container .button span {
+.type-1909 .swiper1909 .button span {
   color: #fff;
   cursor: pointer;
   transition: 0.5s;
   font-weight: 600;
 }
-.type-1909 .swiper-container .button:hover {
+.type-1909 .swiper1909 .button:hover {
   background-color: #3e8e41;
   opacity: 1;
 }
-.type-1909 .swiper-container .button:active {
+.type-1909 .swiper1909 .button:active {
   background-color: #007aff;
 }
-.type-1909 .swiper-container .swiper-button-next,
-.type-1909 .swiper-container .swiper-button-prev {
-  top: 30%;
+.type-1909 .swiper1909 .next1909,
+.type-1909 .swiper1909 .prev1909 {
+  top: 55%;
 }
-.type-1909 .swiper-container .button {
+.type-1909 .swiper1909 .button {
   background: #333 none repeat scroll 0 0;
   color: #fff;
   display: inline-block;
@@ -57,6 +57,43 @@
   line-height: 40px;
   margin: 15px 0 0;
   padding: 0 20px;
+}
+.type-1909 .swiper1909 .swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  cursor: pointer;
+}
+.type-1909 .swiper1909 .next1909,
+.type-1909 .swiper1909 .prev1909 {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #333 none repeat scroll 0 0;
+  text-align: center;
+}
+.type-1909 .swiper1909 .arrow1909 {
+  display: none;
+}
+.type-1909 .swiper1909 .next1909 {
+  right: 0;
+}
+.type-1909 .swiper1909 .prev1909 {
+  left: 0;
+}
+.type-1909 .swiper1909:hover .arrow1909 {
+  display: block;
 }
 .type-1909 .list-shop-cat {
   background: #fafafa none repeat scroll 0 0;
@@ -85,6 +122,12 @@
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
+.type-1909 .list-shop-cat ul li a:hover {
+  color: #ed321e;
+}
+.type-1909 .list-shop-cat ul li a:hover span {
+  background-color: #ed321e;
+}
 .type-1909 .list-shop-cat ul li a span {
   border-radius: 50%;
   width: 26px;
@@ -100,22 +143,8 @@
   transition: all 0.3s ease-out 0s;
   color: #fff;
 }
-.type-1909 .swiper-slide {
-  font-size: 18px;
-  background: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-  cursor: pointer;
+.type-1909 .list-shop-cat ul li a span:hover {
+  background-color: #ed321e;
 }
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .type-1909 .promotion h3 {
@@ -130,17 +159,14 @@
   .type-1909 .promotion .button {
     font-size: 12px !important;
   }
-  .type-1909 .swiper-button-next {
-    top: 13% !important;
-  }
-  .type-1909 .swiper-button-prev {
-    top: 13% !important;
-  }
   .type-1909 .list-shop-cat ul li {
     display: block !important;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .type-1909 {
+    margin-top: 50px;
+  }
   .type-1909 .promotion h3 {
     font-size: 22px;
   }

@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var swiper = new Swiper('.swiper-container', {
+    var swiper100 = new Swiper('.swiper1909', {
         slidesPerView: 1,
         spaceBetween: 30,
         slidesPerGroup: 1,
@@ -9,9 +9,13 @@ $(document).ready(function () {
             el: '.swiper-pagination',
             clickable: true,
         },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '.next1909',
+            prevEl: '.prev1909',
         },
     });
 });
