@@ -149,16 +149,15 @@
   width: 100%;
   display: inline-block;
 }
-.type-1923 .detail_right .attr-info .variations .form-group {
-  width: 47%;
-  margin-top: -24px;
-  margin-left: 60px;
+.type-1923 .detail_right .attr-info .variations .quantity .sub {
+  width: 6%;
 }
-.type-1923 .detail_right .attr-info .variations .form-group .input-number {
+.type-1923 .detail_right .attr-info .variations .quantity .add {
+  width: 6%;
+}
+.type-1923 .detail_right .attr-info .variations .quantity input {
   text-align: center;
-}
-.type-1923 .detail_right .attr-info .variations .form-group .glyphicon {
-  color: black;
+  width: 170px;
 }
 .type-1923 .detail_right .attr-info .variations .alt {
   text-transform: uppercase;
@@ -335,7 +334,7 @@
   margin-right: 5px;
   padding: 3px;
 }
-.type-1923 .product-collateral .tabs .form-add button {
+.type-1923 .product-collateral .tabs .form-add button2 {
   overflow: visible;
   width: auto;
   border: 0;
@@ -344,7 +343,7 @@
   background: transparent;
   cursor: pointer;
 }
-.type-1923 .product-collateral .tabs .form-add button span {
+.type-1923 .product-collateral .tabs .form-add button2 span {
   display: block;
   font-family: "Open Sans", sans-serif;
   background: #fff;
@@ -358,7 +357,7 @@
   font-weight: bold;
   text-transform: uppercase;
 }
-.type-1923 .product-collateral .tabs .form-add button span:hover {
+.type-1923 .product-collateral .tabs .form-add button2 span:hover {
   background: #ED321E;
   color: #fff;
 }
@@ -444,16 +443,16 @@
   padding: 5px;
   text-align: right;
 }
-.type-1923 .product-collateral .tabs .review form .buttons-set .button {
+.type-1923 .product-collateral .tabs .review form .buttons-set .button1 {
   background: none;
   margin-right: 68px;
   border: 1px solid black;
 }
-.type-1923 .product-collateral .tabs .review form .buttons-set .button:hover {
+.type-1923 .product-collateral .tabs .review form .buttons-set .button1:hover {
   background: #ED321E;
   color: #fff;
 }
-.type-1923 .product-collateral .tabs .review form .buttons-set .button span {
+.type-1923 .product-collateral .tabs .review form .buttons-set .button1 span {
   display: block;
   font-family: "Open Sans", sans-serif;
   line-height: 22px;

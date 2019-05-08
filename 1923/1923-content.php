@@ -132,26 +132,14 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 </select>
                                             </div>
                                         </div>
-
                                         <div class="quantity">
                                             <label>Qty:</label>
-                                            <div class="form-group">
-                                                <div class="input-group">
+                                            <button type="button" id="sub" class="sub">-</button>
+                                            <input type="number" id="1" value="1" min="1" max="3" />
+                                            <button type="button" id="add" class="add">+</button>
 
-                                                    <div class="input-group-btn">
-                                                        <button id="down" class="btn btn-default btnsub" onclick=" downnum('0')"><span class="glyphicon glyphicon-minus"></span></button>
-                                                    </div>
-                                                    <input type="text" id="myNumber" class="form-control input-number" value="1" />
-                                                    <div class="input-group-btn">
-                                                        <button id="up" class="btn btn-default btnadd" onclick="upnum('10')"><span class="glyphicon glyphicon-plus"></span></button>
-                                                    </div>
-                                                </div>
-                                            </div>
                                         </div>
                                         <button class="alt" type="submit">Add to cart</button>
-                                        <input type="hidden" name="add-to-cart" value="871">
-                                        <input type="hidden" name="product_id" value="871">
-                                        <input type="hidden" value="0">
                                         <div class="clearfix"></div>
                                     </div>		
                                 </div>
@@ -271,7 +259,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                                 </fieldset>
                                 <div class="buttons-set">
-                                    <button type="submit" title="Submit Review" class="button"><span>Submit Review</span></button>
+                                    <button type="submit" title="Submit Review" class="button1"><span>Submit Review</span></button>
                                 </div>
                             </form>
                         </div>
@@ -282,7 +270,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="input-box">
                                 <input type="text" class="input-text" name="productTagName" id="productTagName">
                             </div>
-                            <button type="button" title="Add Tags" class="button" onclick="submitTagForm()"><span>Add Tags</span></button>
+                            <button type="button" title="Add Tags" class="button2" onclick="submitTagForm()"><span>Add Tags</span></button>
                         </div>
                         <p class="note">Use spaces to separate tags. Use single quotes (') for phrases.</p>
                     </div>

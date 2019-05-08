@@ -35,20 +35,19 @@ $(document).ready(function () {
     });
 
     SetRatingStar();
+    $('.add').click(function () {
+        if ($(this).prev().val() < 10) {
+            $(this).prev().val(+$(this).prev().val() + 1);
+        }
+    });
+    $('.sub').click(function () {
+        if ($(this).next().val() > 1) {
+            if ($(this).next().val() > 1)
+                $(this).next().val(+$(this).next().val() - 1);
+        }
+    });
 
 });
-function upnum(max) {
-        document.getElementById("myNumber").value = parseInt(document.getElementById("myNumber").value) + 1;
-        if (document.getElementById("myNumber").value >= parseInt(max)) {
-            document.getElementById("myNumber").value = max;
-        }
-    }
-    function downnum(min) {
-        document.getElementById("myNumber").value = parseInt(document.getElementById("myNumber").value) - 1;
-        if (document.getElementById("myNumber").value <= parseInt(min)) {
-            document.getElementById("myNumber").value = min;
-        }
-    }
 
 
 
