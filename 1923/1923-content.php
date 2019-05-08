@@ -72,8 +72,13 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="product-name">
                             <h2>Polo shirt</h2>
                         </div>
-                        <div class="product-rating">
-                            <div class="inner-rating" style="width:0%;"></div>
+                        <div class="star-rating">
+                            <span class="fa fa-star-o" data-rating="1"></span>
+                            <span class="fa fa-star-o" data-rating="2"></span>
+                            <span class="fa fa-star-o" data-rating="3"></span>
+                            <span class="fa fa-star-o" data-rating="4"></span>
+                            <span class="fa fa-star-o" data-rating="5"></span>
+                            <input type="hidden" name="whatever1" class="rating-value" value="2.56">
                         </div>
                         <div class="product-order">
                             <span>5 Orders</span>
@@ -127,15 +132,21 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 </select>
                                             </div>
                                         </div>
-                                        <label>Qty:</label>
+
                                         <div class="quantity">
-                                            <a class="qty-down" href="#">
-                                                <i class="fa fa-minus"></i>
-                                            </a>
-                                            <input class="qty" type="text" name="quantity" value="1" title="Qty">
-                                            <a class="qty-up" href="#">
-                                                <i class="fa fa-plus"></i>
-                                            </a>
+                                            <label>Qty:</label>
+                                            <div class="form-group">
+                                                <div class="input-group">
+
+                                                    <div class="input-group-btn">
+                                                        <button id="down" class="btn btn-default btnsub" onclick=" downnum('0')"><span class="glyphicon glyphicon-minus"></span></button>
+                                                    </div>
+                                                    <input type="text" id="myNumber" class="form-control input-number" value="1" />
+                                                    <div class="input-group-btn">
+                                                        <button id="up" class="btn btn-default btnadd" onclick="upnum('10')"><span class="glyphicon glyphicon-plus"></span></button>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                         <button class="alt" type="submit">Add to cart</button>
                                         <input type="hidden" name="add-to-cart" value="871">
@@ -165,7 +176,7 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
         <div class="product-collateral">
             <ul class="tabbernav_product2 nav-pills  ">
-                <li class="active"><a   data-toggle="tab" title="tab_product" href="#home"  data-text="Latest"><span>Description</span></a></li>
+                <li class="active"><a  class="descr" data-toggle="tab" title="tab_product" href="#home"  data-text="Latest"><span>Description</span></a></li>
                 <li><a  data-toggle="tab"  title="tab_product" href="#newproducts5"  data-text="Best Seller"><span>Reviews (0)</span></a></li>
                 <li><a  data-toggle="tab"  title="tab_product" href="#newproducts6"  data-text="Special"><span>TAGS</span></a></li>
                 <li><a  data-toggle="tab"  title="tab_product" href="#newproducts7"  data-text="Special"><span>Additional information</span></a></li>
