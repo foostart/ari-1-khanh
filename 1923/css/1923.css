@@ -151,13 +151,20 @@
 }
 .type-1923 .detail_right .attr-info .variations .quantity .sub {
   width: 6%;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  padding: 2px 0;
 }
 .type-1923 .detail_right .attr-info .variations .quantity .add {
   width: 6%;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  padding: 2px 0;
 }
 .type-1923 .detail_right .attr-info .variations .quantity input {
   text-align: center;
   width: 170px;
+  border: 1px solid #e8e8e8;
 }
 .type-1923 .detail_right .attr-info .variations .alt {
   text-transform: uppercase;
